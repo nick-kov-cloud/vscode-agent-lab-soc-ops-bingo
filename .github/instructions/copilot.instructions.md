@@ -3,6 +3,18 @@ name: copilot
 description: Core instructions for working with the Soc Ops bingo game project. Follow these guidelines for all code changes, features, and improvements.
 ---
 
+## ⚠️ MANDATORY Development Checklist
+
+**Before pushing ANY code, complete ALL of the following:**
+
+- [ ] **Lint**: Run `npm run lint` with zero warnings
+- [ ] **Build**: Run `npm run build` with zero errors
+- [ ] **Test**: Run `npm run test` with all tests passing
+
+**Failure to complete this checklist will result in work being rejected.**
+
+---
+
 ## Project Overview
 
 **Soc Ops** is a social bingo game for in-person mixers. Players find people matching bingo card questions and mark them off. Get 5 in a row (horizontally, vertically, or diagonally) to win.
